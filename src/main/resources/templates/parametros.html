@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmins:th="http://www.thyme.leaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola desde spring!</title>
+</head>
+<body>
+  <h1>Mi Springapp</h1>
+  <p th:if="${jugador}">El jugador es: <span style="color:#DB0081" th:text="${jugador.getNombre()}"/> (<span style="color:#DB0081" th:text="${jugador.getNumero()}"/>) </p>
+</body>
+</html>
